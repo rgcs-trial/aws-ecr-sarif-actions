@@ -1,0 +1,24 @@
+{
+  "name": "aws-ecr-sarif-actions",
+  "version": "1.0.0",
+  "description": "converts aws ecr image scan results to sarif as uploads to github advanced security",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgcs-trial/aws-ecr-sarif-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgcs-trial/aws-ecr-sarif-actions/issues"
+  },
+  "homepage": "https://github.com/rgcs-trial/aws-ecr-sarif-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
