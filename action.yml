@@ -20,3 +20,8 @@ runs:
       with:
         name: ecr-scan-results
         path: ecr-output.json
+    # run node script to parse the json file and create a sarif file
+    - name: run node script to parse the json file and create a sarif file
+      run: |
+        node dist/index.js
+      shell: bash
